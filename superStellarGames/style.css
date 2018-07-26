@@ -1,0 +1,121 @@
+body{
+    text-align: center;
+    background-image: url('https://i.gifer.com/RvyB.gif');
+    background-size: cover;
+}
+div{
+    background: solid 30px green;
+    width: auto;
+    margin: auto;
+    
+    text-align: center;
+}
+span{
+    position: absolute;
+    animation-name: updown;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 2s; 
+    color: white;
+    opacity: .7;
+}
+@keyframes updown{
+    0% {top: 0px;}
+    66% {top: 20px;}
+    100% {top: 0px;}
+}
+
+span1{
+    color: green;
+}
+
+#headbar{
+    position: absolute;
+    top: -20px;
+    left: 10px;
+    font-size: 30px;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+#ul1{
+    font-size: 70px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    color: blueviolet;
+    font-family: 'Do Hyeon', sans-serif;
+    opacity: 1;
+    text-decoration: none;
+    transform: rotate(10deg);
+    text-shadow: 2px 2px black;
+}
+
+#ul2{
+    font-size: 50px;
+    position: absolute;
+    top: 400px;
+    left: 400px;
+    color: blueviolet;
+    font-family: 'Do Hyeon', sans-serif;
+    opacity: 1;
+    text-decoration: overline wavy;
+    transform: rotate(330deg);
+    text-shadow: 2px 2px black;
+}
+
+#ul3{
+    font-size: 50px;
+    position: absolute;
+    top: 600px;
+    left: 600px;
+    color: blueviolet;
+    font-family: 'Do Hyeon', sans-serif;
+    opacity: 1;
+    text-decoration: none;
+    transform: rotate(30deg);
+    text-shadow: 2px 2px black;
+}
+
+#ul3:hover{
+    transform: rotate(0deg);
+    font-size: 120px;
+}
+
+#ul2:hover{
+    transform: rotate(0deg);
+    font-size: 100px;
+}
+
+#ul1:hover{
+    transform: rotate(0deg);
+    font-size: 160px;
+    text-transform: uppercase;
+}
+
+#lp{
+    display: inline;
+    position: absolute;
+    right: 10px;
+    top: 150px;
+    font-size: 75px;
+    color: white;
+    background: black;
+    border-color: red;
+    border-radius: 30px;
+    padding: 20px;
+    font-family: 'Permanent Marker', cursive;
+    text-decoration: none;
+}
+
+#lp:hover{
+    color:red;
+
+}
+
+p{
+    position: absolute;
+    right: 25px;
+    top: 250px;
+    color: white;
+    font-size: 18px;
+}
